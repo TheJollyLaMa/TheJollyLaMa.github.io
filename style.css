@@ -50,7 +50,9 @@ main table td{
 }
 #html {
   text-align: center;
-  margin: 50%;
+  position: fixed;
+  bottom: 75px;
+  margin: 10px;
 }
 #css {
   text-align: center;
@@ -80,5 +82,10 @@ footer h4 {
   // margin-left: 5%;
 }
 #right-foot {
+  margin: 10px;
+}
+.foot-nav {
+  position: fixed;
+  bottom: 50px;
   margin: 10px;
 }
