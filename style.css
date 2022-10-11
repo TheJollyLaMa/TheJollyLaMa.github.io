@@ -1,0 +1,63 @@
+/*  header  */
+header {
+  position: absolute;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+#title {
+  font-family: "Chalkboard";
+  color: darkblue;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 50%;
+  width: 100%;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+
+
+main table {
+  position: absolute;
+  margin: 25px;
+  top: 30%;
+  color: darkcyan;
+  background-color: lightcyan;
+  border-radius: 10px;
+  padding: 25px;
+}
+main table tr {
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+}
+main table td{
+  margin: 25px;
+}
+
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+footer h4 {
+  display: inline;
+  margin: 1px;
+  width: 100%;
+}
+#left-foot {
+  left: 0;
+}
+#center-foot {
+  // margin-left: 30%;
+}
+#right-foot {
+  right: 0;
+}
