@@ -20,8 +20,13 @@ li {
   display: inline;
   margin: 10px;
 }
-
-main table, p {
+#welcome_msg {
+  position: absolute;
+  margin: 25px;
+  top: 25%;
+  color: darkgreen;
+}
+main table {
   position: absolute;
   margin: 25px;
   top: 30%;
