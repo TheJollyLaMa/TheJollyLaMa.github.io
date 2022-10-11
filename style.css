@@ -21,8 +21,7 @@ li {
   margin: 10px;
 }
 
-
-main table {
+main table, p {
   position: absolute;
   margin: 25px;
   top: 30%;
