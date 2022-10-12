@@ -63,6 +63,21 @@ main table td{
   position: absolute;
   display: inline-block;
 }
+.button {
+  color: #61bff9;
+  border: 1px solid #466995;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color: #C0D6DF;
+  transition: background-color .1s, color .1s;
+}
+
+.button:active {
+  color: #ffffff;
+}
 #html {
   text-align: center;
   position: fixed;
