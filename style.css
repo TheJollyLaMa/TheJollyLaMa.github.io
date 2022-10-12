@@ -16,7 +16,7 @@ a:hover {
   color: darkblue;
   text-align: center;
   margin-top: 10px;
-  margin-left: 50%;
+  margin-left: auto;
   width: 100%;
 }
 li {
