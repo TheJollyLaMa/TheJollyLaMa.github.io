@@ -1,3 +1,3 @@
 # TheJollyLaMa.github.io
 
-just havin fun by extending a codecademy project!
+Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js
