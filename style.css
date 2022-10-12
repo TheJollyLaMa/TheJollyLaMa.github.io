@@ -20,6 +20,9 @@ li {
   display: inline;
   margin: 10px;
 }
+nav {
+  background-color: lightcyan;
+}
 #welcome_msg {
   position: absolute;
   margin: 25px;
