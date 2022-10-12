@@ -63,7 +63,7 @@ main table td{
   position: absolute;
   display: inline-block;
 }
-.button {
+a .button {
   color: #61bff9;
   border: 1px solid #466995;
   cursor: pointer;
