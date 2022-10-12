@@ -64,19 +64,25 @@ main table td{
   display: inline-block;
 }
 a .button {
-  color: #61bff9;
-  border: 1px solid #466995;
+  color: lightseagreen;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 0px 4px;
 }
 
 .button:hover{
-  background-color: #C0D6DF;
+  background-color: darkcyan;
+  color: lightcyan;
   transition: background-color .1s, color .1s;
 }
 
 .button:active {
-  color: #ffffff;
+  color: lightcyan;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
 }
 #html {
   text-align: center;
