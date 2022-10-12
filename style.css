@@ -22,6 +22,9 @@ li {
 }
 nav {
   background-color: lightcyan;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 5px;
 }
 #welcome_msg {
   position: absolute;
