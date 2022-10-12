@@ -28,6 +28,8 @@ li {
 }
 body {
   background-image: url("3545000.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 main table {
   position: absolute;
