@@ -5,6 +5,7 @@
     <link href="css/breadcrumb_css.css" type="text/css" rel="stylesheet">
   </head>
   <body ng-app="JollysCheatSheet">
+    <div id="main_background">
     <!-- <header>
       <h1 id="title">{{title}}</h1>
       <nav>
@@ -20,6 +21,7 @@
         </ul>
       </nav>
     </header> -->
+
     <main ng-controller="MainController">
       <h1 id="title">{{title}}</h1>
       <ng-view></ng-view>
@@ -43,6 +45,8 @@
       <h4 id="center-foot">Jolly's Cheatsheet 2022</h4>
       <h4 id="right-foot">🪷</h4>
     </footer>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <script src="js/JollysCheatSheet.js"></script>

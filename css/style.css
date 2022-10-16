@@ -33,13 +33,13 @@ nav {
   top: 25%;
   color: darkgreen;
 }
-/* main body */
-body {
+/* main background */
+#main_background {
   background-image: url("../img/3545000.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   margin: 2px;
-
+  padding: 2px;
 }
 main table {
   /* position: absolute; */
