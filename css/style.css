@@ -3,14 +3,6 @@ header {
   position: fixed;
   top: 0;
 }
-
-a {
-  text-decoration: none;
-  color: orange;
-}
-a:hover {
-  color: darkcyan;
-}
 #title {
   font-family: "Chalkboard";
   color: darkcyan;
@@ -19,6 +11,14 @@ a:hover {
   margin-left: auto;
   width: 100%;
   font-weight: bold;
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover {
+  color: darkcyan;
 }
 
 nav {
@@ -41,6 +41,9 @@ nav {
   margin: 2px;
   padding: 2px;
   opacity: 0.5;
+}
+main {
+  opacity: 1;
 }
 main table {
   /* position: absolute; */

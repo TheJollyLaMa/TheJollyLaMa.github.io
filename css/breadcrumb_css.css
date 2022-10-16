@@ -6,9 +6,7 @@
   }
 .breadcrumb li {
     display: inline;
-    margin: 2px;
     padding: 2px;
-
 }
 .breadcrumb li+li::before {
     content: "-~>";
@@ -25,7 +23,7 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    /* padding: 2px 2px; */
+    padding: 5px 5px;
     border-radius: 5px;
 }
 
