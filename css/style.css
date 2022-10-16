@@ -19,10 +19,10 @@ a:hover {
   margin-left: auto;
   width: 100%;
 }
-/* li {
+nav li {
   display: inline;
   margin: 10px;
-} */
+}
 nav {
   background-color: lightcyan;
   border-radius: 10px;
@@ -56,8 +56,13 @@ main table tr {
   text-align: center;
 }
 main table td{
-  margin: 25px;
+  margin: 5px;
   padding: 10px;
+}
+main table li {
+  margin: 5px;
+  padding: 2px;
+  text-align: left;
 }
 .content {
   position: absolute;
