@@ -1,12 +1,15 @@
 .breadcrumb {
-    text-align: left;
+    text-align: center;
     position: fixed;
     bottom: 30px;
   }
 .breadcrumb li {
-    float: left;
+    float: center;
 }
-
+.breadcrumb li+li::before {
+    content: "<~>";
+    color: darkcyan;
+}
 .breadcrumb a {
     color: #fff;
     background: darkcyan;
@@ -14,36 +17,47 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    margin-right: 15px;
-    padding: 0 5px;
+    padding: 2px 10px;
+    border-radius: 5px;
 }
-.breadcrumb a::before,
-.breadcrumb a::after {
-content: "";
-position: absolute;
-border-color: darkcyan;
-border-style: solid;
-border-width: 15px 5px;
-}
-.breadcrumb a::before {
-left: -10px;
-border-left-color: transparent;
-}
-.breadcrumb a::after {
-left: 100%;
-border-color: transparent;
-border-left-color: darkcyan;
-}
+
 .breadcrumb a:hover {
-background-color: lightcyan;
-color: darkcyan;
+    background-color: lightcyan;
+    color: darkcyan;
 }
 .breadcrumb a:hover::before {
-border-color: lightcyan;
-border-left-color: transparent;
-color: darkcyan;
+    border-color: lightcyan;
+    border-left-color: transparent;
+    color: darkcyan;
 }
 .breadcrumb a:hover::after {
-border-left-color: lightcyan;
-color: darkcyan;
+    border-left-color: lightcyan;
+    color: darkcyan;
 }
+
+/* uses little 'x' close indicator as superscript
+for attributes that can be removed on click*/
+.attribute a::after {
+    content: " x";
+    font-size: 8px;
+    vertical-align: super;
+  }
+
+  /* .breadcrumb li{
+    display: inline;
+  }
+  .breadcrumb li.location+li.location::before {
+    content: " ~> ";
+  }
+  .breadcrumb a:hover {
+    color: lightgreen;
+  }
+  .breadcrumb li.attribute {
+    color: darkcyan;
+  }
+  .breadcrumb li.attribute::after {
+    content: "x";
+    color: cyan;
+    font-size: 8;
+    vertical-align: super;
+  } */
