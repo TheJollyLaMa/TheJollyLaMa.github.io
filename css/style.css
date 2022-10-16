@@ -43,7 +43,7 @@ nav {
   background-color: lightcyan;
   background-image: url("../img/3545000.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin: 2px;
   padding: 2px;
   opacity: 0.5;
