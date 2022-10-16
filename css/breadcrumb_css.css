@@ -6,6 +6,7 @@
   }
 .breadcrumb li {
     display: inline;
+    width: 100%;;
     padding: 2px;
 }
 .breadcrumb li+li::before {
