@@ -1,4 +1,4 @@
-var app = angular.module('JollysCheatSheet', ["ngoute"]);
+var app = angular.module('JollysCheatSheet', ["ngRoute"]);
 app.config([
     "$routeProvider",
     function($routeProvider) {
