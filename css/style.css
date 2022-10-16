@@ -1,0 +1,127 @@
+/*  header  */
+header {
+  position: fixed;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+a:hover {
+  color: darkcyan;
+}
+#title {
+  font-family: "Chalkboard";
+  color: darkblue;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  width: 100%;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+nav {
+  background-color: lightcyan;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 5px;
+}
+#welcome_msg {
+  position: absolute;
+  margin: 25px;
+  top: 25%;
+  color: darkgreen;
+}
+/* main body */
+body {
+  background-image: url("3545000.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main table {
+  position: absolute;
+  margin: 25px;
+  top: 20%;
+  color: darkcyan;
+  background-color: lightcyan;
+  border-radius: 10px;
+  padding: 25px;
+}
+main table tr {
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+}
+main table td{
+  margin: 25px;
+  padding: 10px;
+}
+.content {
+  position: absolute;
+  display: inline-block;
+}
+.button {
+  color: lightseagreen;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 4px;
+}
+
+.button:hover{
+  background-color: darkcyan;
+  color: lightcyan;
+  transition: background-color .1s, color .1s;
+}
+
+.button:active {
+  color: lightcyan;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+}
+#html {
+  text-align: center;
+  position: fixed;
+  bottom: 75px;
+  margin: 10px;
+}
+#css {
+  text-align: center;
+  margin: 50%;
+}
+#js {
+  text-align: center;
+  margin: 50%;
+}
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  margin: 10px;
+
+}
+footer h4 {
+  display: inline;
+  margin: 10px;
+  width: 100%;
+}
+#left-foot {
+  left: 0;
+  margin: 10px;
+}
+#center-foot {
+  // margin-left: 5%;
+}
+#right-foot {
+  margin: 10px;
+}
+.foot-nav {
+  position: fixed;
+  bottom: 50px;
+  margin: 10px;
+}
