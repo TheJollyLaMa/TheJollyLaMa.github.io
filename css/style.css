@@ -42,9 +42,9 @@ body {
   background-size: contain;
 }
 main table {
-  position: absolute;
+  /* position: absolute; */
   margin: 25px;
-  top: 20%;
+  /* top: 20%; */
   color: darkcyan;
   background-color: lightcyan;
   border-radius: 10px;
