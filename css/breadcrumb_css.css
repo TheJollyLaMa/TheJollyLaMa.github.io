@@ -1,6 +1,6 @@
 .breadcrumb {
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 30px;
     text-decoration: none;
     margin: 5px;
@@ -8,10 +8,11 @@
 .breadcrumb li {
     display: inline;
     margin: 2px;
-    
+    padding: 2px;
+
 }
 .breadcrumb li+li::before {
-    content: "-~>  ";
+    content: "-~>";
     color: darkcyan;
 }
 .breadcrumb li+li::after {
