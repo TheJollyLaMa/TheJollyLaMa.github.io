@@ -12,6 +12,7 @@ app.config([
       .when("/tests", {controller: "MainController", templateUrl: "pages/tests.html"})
       .when("/hosting", {controller: "MainController", templateUrl: "pages/hosting.html"})
       .when("/git", {controller: "MainController", templateUrl: "pages/git.html"})
+      .when("/specialprojects", {controller: "MainController", templateUrl: "pages/specialprojects.html"})
 
       .otherwise({redirectTo: "/"})
     }
