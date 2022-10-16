@@ -10,8 +10,12 @@
     margin: 2px;
 }
 .breadcrumb li+li::before {
-    content: "<~>  ";
+    content: "-~>  ";
     color: darkcyan;
+}
+.breadcrumb li+li::after {
+  content: "<~-";
+  color: darkcyan;
 }
 .breadcrumb a {
     color: #fff;
