@@ -35,9 +35,15 @@ nav {
 }
 /* main background */
 #main_background {
+  /* position behind main view */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: lightcyan;
   background-image: url("../img/3545000.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 2px;
   padding: 2px;
   opacity: 0.5;
