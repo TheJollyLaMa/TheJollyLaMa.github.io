@@ -105,7 +105,7 @@ footer {
   position: fixed;
   bottom: 0;
   margin: 10px;
-
+  left: 50%;
 }
 footer h4 {
   display: inline;

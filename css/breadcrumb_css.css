@@ -3,13 +3,14 @@
     position: fixed;
     bottom: 30px;
     text-decoration: none;
+    margin: 5px;
   }
 .breadcrumb li {
     display: inline;
     margin: 2px;
 }
 .breadcrumb li+li::before {
-    content: "<~>";
+    content: "<~>  ";
     color: darkcyan;
 }
 .breadcrumb a {
@@ -19,7 +20,7 @@
     height: 30px;
     line-height: 30px;
     text-align: center;
-    padding: 2px 2px;
+    /* padding: 2px 2px; */
     border-radius: 5px;
 }
 
