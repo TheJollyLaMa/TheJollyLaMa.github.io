@@ -61,10 +61,6 @@ main table li {
   padding: 2px;
   text-align: left;
 }
-.content {
-  position: absolute;
-  display: inline-block;
-}
 .button {
   color: lightseagreen;
   border: 1px solid darkcyan;
@@ -73,33 +69,18 @@ main table li {
   text-decoration: none;
   box-shadow: 0px 4px;
 }
-
 .button:hover{
   background-color: darkcyan;
   color: lightcyan;
   transition: background-color .1s, color .1s;
 }
-
 .button:active {
   color: lightcyan;
   margin-top: 24px;
   margin-bottom: 16px;
   box-shadow: 0px 0px;
 }
-#html {
-  text-align: center;
-  position: fixed;
-  bottom: 75px;
-  margin: 10px;
-}
-#css {
-  text-align: center;
-  margin: 50%;
-}
-#js {
-  text-align: center;
-  margin: 50%;
-}
+
 /* Footer */
 footer {
   position: fixed;
@@ -120,10 +101,5 @@ footer h4 {
   // margin-left: 5%;
 }
 #right-foot {
-  margin: 10px;
-}
-.foot-nav {
-  position: fixed;
-  bottom: 50px;
   margin: 10px;
 }

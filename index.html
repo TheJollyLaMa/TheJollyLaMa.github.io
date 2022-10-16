@@ -20,7 +20,10 @@
         </ul>
       </nav>
     </header> -->
-    <main><ng-view></ng-view></main>
+    <main ng-controller="MainController">
+      <h1>{{title}}</h1>
+      <ng-view></ng-view>
+    </main>
       
     <div >
       <ul class="breadcrumb">

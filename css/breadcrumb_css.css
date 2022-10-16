@@ -8,6 +8,7 @@
 .breadcrumb li {
     display: inline;
     margin: 2px;
+    
 }
 .breadcrumb li+li::before {
     content: "-~>  ";
