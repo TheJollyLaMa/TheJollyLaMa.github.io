@@ -4,7 +4,8 @@
     bottom: 30px;
   }
 .breadcrumb li {
-    float: center;
+    display: inline;
+    margin: 10px;
 }
 .breadcrumb li+li::before {
     content: "<~>";
@@ -37,11 +38,11 @@
 
 /* uses little 'x' close indicator as superscript
 for attributes that can be removed on click*/
-.attribute a::after {
+/* .attribute a::after {
     content: " x";
     font-size: 8px;
     vertical-align: super;
-  }
+  } */
 
   /* .breadcrumb li{
     display: inline;

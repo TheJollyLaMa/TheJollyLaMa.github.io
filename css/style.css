@@ -19,10 +19,7 @@ a:hover {
   margin-left: auto;
   width: 100%;
 }
-nav li {
-  display: inline;
-  margin: 10px;
-}
+
 nav {
   background-color: lightcyan;
   border-radius: 10px;
