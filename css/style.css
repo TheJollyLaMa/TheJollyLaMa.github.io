@@ -37,7 +37,7 @@ nav {
 }
 /* main body */
 body {
-  background-image: url("img/3545000.jpg");
+  background-image: url("../img/3545000.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
