@@ -1,4 +1,7 @@
 #### Update Order: 17Oct2022
+#### * order of operationns was changed.
+####      - first init nodejs & setup backend skeleton
+####      - then setup angular skeleton & nav/footer directives
 
 # TheJollyLaMa.github.io
 
