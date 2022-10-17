@@ -1,22 +1,25 @@
+#top {
+  top: 20px;
+}
+#bottom {
+  bottom: 30px;
+}
 .breadcrumb {
     background-color: rgb(252, 227, 173);
     width: 100%;
     text-align: center;
     position: fixed;
-    bottom: 30px;
     padding: 5px;
     margin: 0px;
   }
 .breadcrumb li {
     display: inline;
-    width: 100%;;
-    padding: 2px;
 }
 .breadcrumb li+li::before {
     content: "-~>";
     color: darkcyan;
 }
-.breadcrumb li+li::after {
+.breadcrumb li+li:not(:last-child)::after {
   content: "<~-";
   color: darkcyan;
 }
@@ -29,6 +32,7 @@
     text-align: center;
     padding: 5px 5px;
     border-radius: 5px;
+    margin: 5px;
 }
 
 .breadcrumb a:hover {
