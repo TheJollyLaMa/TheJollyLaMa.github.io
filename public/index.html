@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Jolly Cheatsheet</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/breadcrumb_css.css" type="text/css" rel="stylesheet">
+  </head>
+  <body ng-app="JollysCheatSheet" ng-controller="MainController">
+    <div id="main_background"></div>
+    <header>
+      <!-- <nav>
+        <ul>
+          <li ><a href="/index.html" title="home">home</a></li>
+          <li ><a href="/html.html" title="html">html</a></li>
+          <li ><a href="/css.html" title="css">css</a></li>
+          <li ><a href="/js.html" title="js">js</a></li>
+          <li ><a href="/fullstack.html" title="node">Full Stack Setup</a></li>
+          <li ><a href="/tests.html" title="tests">Testing</a></li>
+          <li ><a href="/hosting.html" title="hosting">Hosting Cheatsheet</a></li>
+          <li ><a href="/git.html" title="git commands">Git Cheatsheet</a></li>          
+        </ul>
+      </nav> -->
+      <h1 id="title">{{title}}</h1>
+    </header>
+
+    <main>
+      <ng-view></ng-view>   
+    </main>
+
+    <footer>
+      <ul class="breadcrumb">
+        <li ><a href="#!/home" title="home">home</a></li>
+        <li ><a href="#!/fullstack" title="node">Full Stack Setup</a></li>
+        <li ><a href="#!/tests" title="tests">Testing</a></li>
+        <li ><a href="#!/hosting" title="hosting">Hosting Cheatsheet</a></li>
+        <li ><a href="#!/git" title="git commands">Git Cheatsheet</a></li>        
+        <li ><a href="#!/specialty" title="special projects">Special Projects</a></li>        
+      </ul>
+      <br>
+      <h4 id="left-foot">🍁</h4>
+      <h4 id="center-foot">Jolly's Cheatsheet 2022</h4>
+      <h4 id="right-foot">🍁</h4>
+    </footer>   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="js/JollysCheatSheet.js"></script>
+    <script src="js/controllers/MainController.js"></script>
+  </body>
+  
+</html>

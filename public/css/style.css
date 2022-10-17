@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+}
+/*  header  */
+header {
+  background-color: rgb(252, 227, 173);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  margin: 0px;
+}
+nav {
+  background-color: lightcyan;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: orange;
+}
+nav a:hover {
+  color: darkcyan;
+}
+
+#title {
+  font-family: "Chalkboard";
+  color: darkcyan;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  margin: 2px;
+}
+
+/* main body */
+main {
+  position: relative;
+  top: 55px;
+  height: 105%;
+  /* margin: 30px 5px 30px 5px; */
+  padding: 5px;
+}
+/* main background */
+#main_background {
+  /* position behind main view */
+  position: fixed;
+  top: 0;
+  left: -10;
+  z-index: -1;
+  margin: 0;
+  background-color: lightcyan;
+  background-image: url("../img/3545000.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 110%;
+  height: 100%;
+  opacity: 0.3;
+}
+table {
+  margin: 0px 10px 10px 10px;
+  padding: 10px;
+  width: 100%;
+  color: darkcyan;
+  background-color: lightcyan;
+  border-radius: 0 10px 10px 10px;
+  opacity: 0.9;
+}
+caption {
+  margin: 5px 5px 0px 0px;
+  padding: 5px;
+  font-family: "Chalkboard";
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(252, 227, 173);
+  background-color: darkcyan;
+  text-align: left;
+  border-radius: 10px 10px 0 0;
+  width: 20%;
+  opacity: 1;
+}
+table thead td{
+  color: darkcyan;
+  background-color: rgb(252, 227, 173);
+  border-radius: 3px;
+  padding: 5px;
+  opacity: 0.85;
+}
+table tbody td {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+table tr:nth-child(even) {
+  background: rgb(167, 179, 179)
+}
+table tr:nth-child(odd) {
+  background: rgb(56, 60, 60);
+}
+table li {
+  margin: 5px;
+  padding: 2px;
+  text-align: left;
+}
+table tfoot {
+  margin: 5px;
+  padding: 2px;
+  text-align: center;
+}
+table .button {
+  font-family: "Chalkboard";
+  display: inline-block;
+  margin: 2px;
+  padding: 2px 5px;
+  color: lightseagreen;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  /* box-shadow: 0px 1px; */
+}
+.button:hover{
+  background-color: darkcyan;
+  color: rgb(252, 227, 173);
+  transition: background-color .5s, color .3s;
+}
+.button:active {
+  background-color: rgb(212, 173, 106);
+  color: lightcyan;
+  box-shadow: 0px 0px;
+}
+.code_block {
+  color: rgb(252, 227, 173);
+  background-color: rgb(126, 143, 143);
+  border-radius: 2px;
+  margin: 2px;
+  padding: 5px;
+  opacity: 1;
+}
+/* Footer */
+footer {
+  background-color: rgb(252, 227, 173);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+footer h4 {
+  display: inline;
+  width: 100%;
+}
+#left-foot {
+  left: 0;
+  margin: 10px;
+}
+#center-foot {
+  margin: auto;
+}
+#right-foot {
+  margin: 10px;
+}
