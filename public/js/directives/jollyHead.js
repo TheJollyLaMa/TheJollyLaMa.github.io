@@ -7,6 +7,5 @@ app.directive('jollyHead', function() {
         },
         controller: "MainController",
         templateUrl: 'js/directives/jollyHead.html'
-    };
-    
+    }
 });
