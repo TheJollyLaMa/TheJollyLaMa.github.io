@@ -5,7 +5,7 @@ app.directive('jollyFoot', function() {
         scope: {
             info: '='
         },
-        controller: "MainController",
+        controller: "NavController",
         templateUrl: 'js/directives/jollyFoot.html'
     };
     

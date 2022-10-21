@@ -13,8 +13,7 @@
     margin: 0px;
   }
 .breadcrumb li {
-    display: inline;
-}
+    display: inline-block;}
 .breadcrumb li+li:hover::before {
     content: ".   .   .";
     color: darkcyan;
@@ -24,13 +23,13 @@
     background-size: 20px;
 }
 .breadcrumb li+li:hover:not(:last-child)::after {
-  content: "   .   .   .";
-  color: darkcyan;
-  background-image: url("../favicon.ico");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px;
-}
+    content: "   .   .   .";
+    color: darkcyan;
+    background-image: url("../favicon.ico");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+  }
 .breadcrumb a {
     color: #fff;
     background: darkcyan;

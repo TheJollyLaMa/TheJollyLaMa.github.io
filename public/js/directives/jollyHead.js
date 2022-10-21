@@ -3,9 +3,9 @@ app.directive('jollyHead', function() {
     return {
         restrict: 'E',
         scope: {
-            info: '='
+            navbar: '='
         },
-        controller: "MainController",
+        controller: "NavController",
         templateUrl: 'js/directives/jollyHead.html'
     }
 });

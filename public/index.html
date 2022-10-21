@@ -1,15 +1,16 @@
 <html>
   <head>
     <title>Jolly Cheatsheet</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link href="css/breadcrumb_css.css" type="text/css" rel="stylesheet">
+    <link href="css/mainStyle.css" type="text/css" rel="stylesheet">
+    <link href="css/breadcrumbStyle.css" type="text/css" rel="stylesheet">
+    <link href="css/tooltipStyle.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
   </head>
-  <body ng-app="JollysCheatSheet" ng-controller="MainController">
+  <body ng-app="JollysCheatSheet">
     
     <div id="main_background"></div>
 
-    <jolly-head></jolly-head>
+    <jolly-head navbar="cheatsheetNav"></jolly-head>
     
     <main><ng-view></ng-view></main>
     
@@ -18,6 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <script src="js/JollysCheatSheet.js"></script>
+    <script src="js/controllers/NavController.js"></script>
     <script src="js/controllers/MainController.js"></script>
     <script src="js/directives/jollyHead.js"></script>
     <script src="js/directives/jollyFoot.js"></script>
