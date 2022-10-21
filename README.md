@@ -7,6 +7,8 @@
 ####      - then add in web3/ecommerce functionality
 # TheJollyLaMa.github.io
 
+<button name="button" onclick="https://thejollylama.github.io/public/#!/">Jolly's Cheatsheet</button>
+
 Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js 
 
 (You'll be seeing unusual accomplishment ...)
