@@ -15,20 +15,21 @@
 .breadcrumb li {
     display: inline-block;}
 .breadcrumb li+li:hover::before {
-    content: ".   .   .";
+    content: "- - _ * *";
     color: darkcyan;
-    background-image: url("../favicon.ico");
+    background-image: url("../img/icons/mandelblum_Teal.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 20px;
+    background-size: 30px;
 }
 .breadcrumb li+li:hover:not(:last-child)::after {
-    content: "   .   .   .";
+    content: "- - _ * *";
+    width: 100%;
     color: darkcyan;
-    background-image: url("../favicon.ico");
+    background-image: url("../img/icons/mandelblum_Teal.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 20px;
+    background-size: 30px;
   }
 .breadcrumb a {
     color: #fff;
