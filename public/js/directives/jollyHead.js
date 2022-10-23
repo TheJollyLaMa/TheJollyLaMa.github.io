@@ -6,6 +6,11 @@ app.directive('jollyHead', function() {
             navbar: '='
         },
         controller: "NavController",
-        templateUrl: 'js/directives/jollyHead.html'
+        templateUrl: 'js/directives/jollyHead.html',
+        link: function(scope, elem, attrs ) {
+            scope.sayHi = function() {
+                alert("Hi! This alert is from the jollyHead directive.");
+            };
+        }
     }
 });

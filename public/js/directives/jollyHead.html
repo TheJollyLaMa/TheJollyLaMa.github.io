@@ -1,14 +1,14 @@
 <header>
     <h4 id="title">{{title}}</h4>
     <ul id="top" class="breadcrumb">
-        <img class="jollyicon" ng-src="favicon.ico" />
+        <img ng-click="sayHi()" class="jollyicon" ng-src="favicon.ico" >
         <li ><a href="#!/home" title="home">Home</a></li>
         <li ><a href="#!/fullstack" title="node">Full Stack Setup</a></li>
         <li ><a href="#!/tests" title="tests">Testing</a></li>
         <li ><a href="#!/hosting" title="hosting">Hosting Cheatsheet</a></li>
         <li ><a href="#!/git" title="git commands">Git Cheatsheet</a></li>        
         <li ><a href="#!/specialty" title="special projects">Special Projects</a></li>        
-        <img class="jollyicon" ng-src="favicon.ico" />
+        <img ng-click="sayHi()" class="jollyicon" ng-src="favicon.ico" >
     </ul>
     <!-- fix below nav to be used to switch nav bars in an 'SPA' by grabbing different link sets from the controller via the 'navbar' scope link defined in the directive and the main index.html -->
     <!-- <ul id="top" class="breadcrumb" ng-repeat="item in cheatsheetNav">
