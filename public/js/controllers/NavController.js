@@ -2,8 +2,13 @@ app.controller('NavController', ['$scope', function($scope) {
     $scope.title = "Jolly's Cheatsheet";
     $scope.cheatsheetNav = [
         {name: "Home", url: "/home"},
-        {name: "Fullstack", url: "/fullstack"}
+        {name: "Fullstack", url: "/fullstack"}        
     ];
+    $scope.data = {
+        "name": "Jolly",
+        "age": 37
+    };
+
     $scope.smarthomeNav = [
         {name: "About", url: "/About"},
         {name: "Home", url: "/Home"},
