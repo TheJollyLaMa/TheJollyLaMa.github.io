@@ -6,7 +6,10 @@ app.controller('NavController', ['$scope', function($scope) {
     ];
     $scope.data = {
         "name": "Jolly",
-        "age": 37
+        // date in dd MON YYYY format
+        "date": new Date().toLocaleDateString('en-US', {day: 'numeric', month: 'short', year: 'numeric'}),
+        // date minus birthdate including month and day
+        "age": Math.floor((new Date() - new Date(1985, 04, 21)) / 31557600000)
     };
 
     $scope.smarthomeNav = [
