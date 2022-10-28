@@ -143,6 +143,10 @@ table .button {
   height: 20px;
   margin: 0px 10px;
 }
+.jollyicon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
 /* Footer */
 footer {
   background-color: rgb(252, 227, 173);
