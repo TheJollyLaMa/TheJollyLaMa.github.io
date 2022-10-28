@@ -38,6 +38,33 @@
           <td><img class="jollyicon" ng-src="favicon.ico" /></td>
           <td>see the logs of past commits</td>
         </tr>
+        <tr>
+          <td>git show HEAD</td>
+          <td><img class="jollyicon" ng-src="favicon.ico" /></td>
+          <td>The output of this command will display everything the git log command displays for the HEAD commit, plus all the file changes that were committed.</td>
+        </tr>
+        <tr>
+          <td>git checkout HEAD filename.txt</td>
+          <td><img class="jollyicon" ng-src="favicon.ico" /></td>
+          <td>will restore the file in your working directory to look exactly as it did when you last made a commit.</td>
+        </tr>
+        <tr>
+          <td>git reset HEAD filename.txt</td>
+          <td><img class="jollyicon" ng-src="favicon.ico" /></td>
+          <td>This command resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area.</td>
+        </tr>
+        <tr>
+          <td>
+            git reset commit_SHA <br>
+            git reset git reset 5d69206
+         </td>
+          <td><img class="jollyicon" ng-src="favicon.ico" /></td>
+          <td>
+            command_SHA is the first 7 characters of the commit's SHA. <br>
+            HEAD is now set to that previous commit. <br>
+            The commits that came after the one you reset to are gone.
+          </td>
+        </tr>
       </tbody>
       <tfoot>
         <tr>

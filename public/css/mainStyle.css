@@ -49,14 +49,16 @@ main {
   left: -10;
   z-index: -1;
   margin: 0;
-  background-color: lightcyan;
-  background-image: url(https://decentagency.space/img/complex_realaxation.gif), url("../img/3545000.jpg");
+  background-color: black;
+  /* background-image: url("../img/spiral_sprite_orange.gf"), url(https://decentagency.space/img/complex_realaxation.gf), url(https://ipfs.io/ipfs/bafybeigj7fw32xx33bzl7yosnwq7ouqqmcoui7u3zk65bxunceh4s7edji); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-left: 10%;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
+  /* min-width: 100%;
+  min-height: 100%; */
   opacity: 0.3;
 }
 table {

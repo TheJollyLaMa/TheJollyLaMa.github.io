@@ -8,10 +8,26 @@
   </head>
   <body ng-app="JollysCheatSheet">
     
-    <div id="main_background"></div>
+    <!-- <div id="main_background"></div> -->
+    <video id="main_background" autoplay muted loop>
+      <source src="https://ipfs.io/ipfs/QmdeZDPtS6NW37KeSNJvH5jGTri3mSpyzfVp3LZfrJa72y" type="video/mp4">
+    </video>
 
     <jolly-head navbar="cheatsheetNav" data="data"></jolly-head>
-    
+    <style>
+      .acc_header {
+          margin-top: -30px;
+          margin-right: 10px;
+          font-size: x-large;
+          color: aliceblue;
+          background-color: aqua;
+          position: fixed;
+          z-index: 2;
+          top: 30px;
+          right: 0px;
+      }
+    </style>
+    <jolly-wallet data="wallet_data" class="acc_header">JWalle</jolly-wallet>
     <main><ng-view></ng-view></main>
     
     <jolly-foot></jolly-foot>
@@ -20,9 +36,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <script src="js/JollysCheatSheet.js"></script>
     <script src="js/controllers/NavController.js"></script>
+    <script src="js/controllers/WalletController.js"></script>
     <script src="js/controllers/MainController.js"></script>
     <script src="js/directives/jollyHead.js"></script>
     <script src="js/directives/jollyFoot.js"></script>
+    <script src="js/directives/jollyWallet.js"></script>
   </body>
   
 </html>
