@@ -50,7 +50,10 @@
         </tr>
         <tr>
           <td>git reset HEAD filename.txt</td>
-          <td><img class="jollyicon" ng-src="favicon.ico" /></td>
+          <td>
+            git reset --soft HEAD~7 <br>
+            where 7 is the number of commits you want to undo
+          </td>
           <td>This command resets the file in the staging area to be the same as the HEAD commit. It does not discard file changes from the working directory, it just removes them from the staging area.</td>
         </tr>
         <tr>
