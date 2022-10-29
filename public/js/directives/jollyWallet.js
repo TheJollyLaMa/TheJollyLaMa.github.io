@@ -7,10 +7,18 @@ app.directive('jollyWallet', function() {
         controller: "WalletController",
         templateUrl: 'js/directives/jollyWallet.html',
         link: function(scope, elem, attrs ) {
-            scope.connect = function() {
-                alert("Connect to wallet");
-                
-            };
+            // wallet connect boolean
+            scope.walletConnected = false;
+            // wallet connect
+            scope.connectWallet = function() {
+                alert("Wallet Connect");
+                // set walletConnected to true
+                scope.walletConnected = true;
+          }
+            scope.wallet = {
+                "ens": "TheJollyLaMA.eth",
+                "acc_hash": "0x0000000000000000000000000000000000000000"
+            }
         }
     }
 })
