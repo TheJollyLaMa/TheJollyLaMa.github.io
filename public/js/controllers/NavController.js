@@ -1,5 +1,5 @@
 app.controller('NavController', ['$scope', function($scope) {
-    $scope.title = "Jolly's Cheatsheet";
+    $scope.title = "Jolly's Cheatsheet & Toolchest";
     $scope.cheatsheetNav = [
         {name: "Home", url: "/home"},
         {name: "Fullstack", url: "/fullstack"}        
