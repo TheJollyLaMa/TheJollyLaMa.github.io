@@ -10,7 +10,7 @@ app.directive('jollyHead', function() {
         templateUrl: 'js/directives/jollyHead.html',
         link: function(scope, elem, attrs ) {
             scope.sayHi = function() {
-                alert("Hi! This alert is from the jollyHead directive.\n\nToday is "+ scope.data.date + ".\n " + scope.data.name + " is " + scope.data.age + " years old and not getting any younger.");
+                alert("Hi! This alert is from the jollyHead directive.\n\nToday is "+ scope.data.date + ".\n " + scope.data.name + " is " + scope.data.age + " years old and not getting any younger.\n jrlamanna@gmail.com");
             };
         }
     }

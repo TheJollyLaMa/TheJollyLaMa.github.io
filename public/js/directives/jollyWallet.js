@@ -11,7 +11,7 @@ app.directive('jollyWallet', function() {
             scope.walletConnected = false;
             // wallet connect
             scope.connectWallet = function() {
-                alert("Wallet Connect");
+                alert("Future Wallet Connect");
                 // set walletConnected to true
                 scope.walletConnected = true;
           }
