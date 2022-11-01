@@ -46,7 +46,7 @@ main {
   /* position behind main view */
   position: fixed;
   bottom: 0;
-  left: -10;
+  left: 0;
   z-index: -1;
   margin: 0;
   background-color: black;
@@ -54,7 +54,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-left: 10%;
+  margin: 0%;
   width: 90%;
   height: 90%;
   /* min-width: 100%;
