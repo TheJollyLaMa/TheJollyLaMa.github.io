@@ -199,3 +199,39 @@ footer h4 {
 .account {
   font-size: 12px;
 }
+/* top left of screen inline contained within parent */
+.rari_link img {
+  height: 20px;
+  margin: 0px 10px;  
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+jolly-dalle {
+  width: 100%;
+  margin-top: 0 !important;
+  opacity: 0.7;
+}
+.threejs_sandbox h1 {
+  font-family: "Chalkboard";
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.dalle_title {
+  font-family: "Chalkboard";
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+#dalle_cube {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  float: center;
+  margin-top: 0px;
+  z-index: 1;
+}

@@ -14,6 +14,7 @@ app.config([
       .when("/git", {controller: "MainController", templateUrl: "pages/git.html"})
       .when("/specialty", {controller: "MainController", templateUrl: "pages/specialprojects.html"})
       .when("/IPFS_Blend", {controller: "MainController", templateUrl: "pages/ipfs_blend.html"})
+      .when("/Three", {controller: "MainController", templateUrl: "pages/three.html"})
 
       .otherwise({redirectTo: "/"})
     }
