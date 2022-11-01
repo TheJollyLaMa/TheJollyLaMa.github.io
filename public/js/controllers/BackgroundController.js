@@ -9,7 +9,8 @@ app.controller('BackgroundController', ['$scope', function($scope) {
     }
     $scope.gif_background_urls = {
         "SpiralOrangeSprite": "./img/SpiralOrangeSprite.gif",
-        "SpiralGreenSprite": "./img/SpiralGreenSprite.gif"
+        "SpiralGreenSprite": "./img/SpiralGreenSprite.gif",
+        "SpiralGreenSprite": "./img/MandelbrotBlum.gif"
     }
     // function to randomly select a background image
     $scope.randomBackground = function(urls) {
