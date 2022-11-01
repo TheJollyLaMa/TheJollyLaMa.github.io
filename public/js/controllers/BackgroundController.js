@@ -1,5 +1,5 @@
 app.controller('BackgroundController', ['$scope', function($scope) {
-    $scope.background_urls = {
+    $scope.ipfs_background_urls = {
         "Matrix4Kids": "https://ipfs.io/ipfs/QmdeZDPtS6NW37KeSNJvH5jGTri3mSpyzfVp3LZfrJa72y",
         "AxisSprite": "https://ipfs.io/ipfs/QmYMML6K846sbkdGai3M8ejzHpy7iyz44TDe22amZUFawa",
         "BlueSprite": "https://ipfs.io/ipfs/QmaG5FCEerfjdnABYAqmUehJaoqx1S4vrt6ZHgvzjXE8qn",
@@ -7,11 +7,15 @@ app.controller('BackgroundController', ['$scope', function($scope) {
         "SpiralOrangeSprite": "https://ipfs.io/ipfs/QmQeCN1cLtsG3tYgXjGcQPsdcQudP5ZCseWZhGUREmorj4",
         "SpiralMultiSprite": "https://ipfs.io/ipfs/QmYjWH7Ex2MAmBoLLUKVQMoyChc6kwUzh69AD4T1DqLMA5"
     }
+    $scope.gif_background_urls = {
+        "SpiralOrangeSprite": "./img/SpiralOrangeSprite.gif",
+        "SpiralGreenSprite": "./img/SpiralGreenSprite.gif"
+    }
     // function to randomly select a background image
-    $scope.randomBackground = function() {
-        var keys = Object.keys($scope.background_urls);
+    $scope.randomBackground = function(urls) {
+        var keys = Object.keys(urls);
         var random_key = keys[Math.floor(Math.random() * keys.length)];
-        var random_url = $scope.background_urls[random_key];
+        var random_url = urls[random_key];
         return random_url;
     }
 

@@ -1,6 +1,7 @@
-<video id="main_background" autoplay muted loop>
-    <source id="source" ng-src="{{randomBackground()}}" type="video/mp4">
-</video>
+<!-- <video id="main_background" autoplay muted loop>
+    <source id="source" ng-src="{{randomBackground(ipfs_background_urls)}}" type="video/mp4">
+</video> -->
+<img id="main_background" ng-src="{{randomBackground(gif_background_urls)}}" alt="">
 <!-- 
     Background videos are stored on IPFS and served via your local gateway.
     Databinding exposes them to the view via the background_urls object.
