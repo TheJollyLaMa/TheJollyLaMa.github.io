@@ -211,9 +211,10 @@ footer h4 {
 jolly-dalle {
   width: 100%;
   margin-top: 0 !important;
-  opacity: 0.7;
+  opacity: 0.6;
 }
-.threejs_sandbox h1 {
+
+.threejs_sandbox h1, .threejs_sandbox h4 {
   font-family: "Chalkboard";
   color: white;
   text-align: center;
@@ -226,12 +227,4 @@ jolly-dalle {
   text-align: center;
   width: 100%;
   font-weight: bold;
-}
-#dalle_cube {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  float: center;
-  margin-top: 0px;
-  z-index: 1;
 }

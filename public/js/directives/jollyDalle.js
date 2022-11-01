@@ -35,7 +35,8 @@ app.directive('jollyDalle', function() {
                 const geometry = new THREE.BoxGeometry(2, 2, 2);
                 // const material = new THREE.MeshBasicMaterial({ color: 0x0000ff });
                 // set random texture file from the textures folder    
-                const texture = new THREE.TextureLoader().load('img/textures/' + Math.floor(Math.random() * 19) + '.png');
+                // const texture = new THREE.TextureLoader().load('img/textures/' + Math.floor(Math.random() * 19) + '.png');
+                const texture = new THREE.TextureLoader().load('img/textures/' + Math.floor(Math.random() * 26) + '.png');
                 // const texture = new THREE.TextureLoader().load('textures/19.gif');
                 
                 const material = new THREE.MeshBasicMaterial({ map: texture });
