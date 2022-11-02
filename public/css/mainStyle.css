@@ -228,3 +228,8 @@ jolly-dalle {
   width: 100%;
   font-weight: bold;
 }
+jolly-smarthome {
+  width: 100%;
+  margin-top: 0px !important;
+  opacity: 0.8;
+}

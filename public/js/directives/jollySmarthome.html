@@ -1,0 +1,33 @@
+<div>
+    <h1>{{title}}</h1>
+    <div id="smarthome_placeholder"></div>
+    <!-- print smarthome details in a table with ng-repeat -->
+    <table>
+        <thead>
+            <tr>
+                <!-- show name if wallet connected -->
+                <td><div ng-if="smarthomeConnected">Welcome, {{connected_home.name}}</div></td>
+                <td><div ng-if="smarthomeConnected">{{connected_home.acc_hash}}</div></td>
+                <td><button ng-click="connectSmarthome()">Connect Smarthome</button></td>
+            </tr>
+        </thead>
+        <tbody ng-if="smarthomeConnected">
+            <!-- filter by lat/long to call up localized datasets -->
+            <tr ng-repeat="smarthome in smarthomes">
+                <!-- use ng-repeat to print out each data point -->
+                <td>{{smarthome.title}}</td>
+                <td>{{smarthome.location}}</td>
+                <td>{{smarthome.network}}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>🪷</td>
+                <td>🪷</td>
+                <td>🪷</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+
+</div>
