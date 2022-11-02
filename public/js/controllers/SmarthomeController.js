@@ -1,5 +1,5 @@
 app.controller('SmarthomeController', ['$scope', function($scope) {
-    $scope.title = "Smarthome prototype";
+    $scope.title = "Smarthome prototype (refresh for new random image)";
     $scope.smarthomes = [
         {
             "title": "Smarthome prototype 1",
