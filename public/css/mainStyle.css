@@ -233,3 +233,22 @@ jolly-smarthome {
   margin-top: 0px !important;
   opacity: 0.8;
 }
+.smarthome_title {
+  font-family: "Chalkboard";
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+.smarthome_use_case {
+  font-family: "Chalkboard";
+  color: white;
+  background-color: cadetblue;
+  font-weight: bold;
+  margin: 0px;
+  padding: 25px;
+  border-radius: 10px;
+}
+.smarthome_display {
+  margin-bottom: 20%;
+}

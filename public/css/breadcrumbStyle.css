@@ -31,7 +31,7 @@
     background-position: center;
     background-size: 30px;
   }
-.breadcrumb a {
+.breadcrumb a, .smarthome_display a {
     color: #fff;
     background: darkcyan;
     text-decoration: none;
@@ -43,12 +43,12 @@
     margin: 5px;
 }
 
-.breadcrumb a:hover {
+.breadcrumb a:hover, .smarthome_display a:hover {
     background-color: lightcyan;
     color: darkcyan;
     transition: background-color .5s, color .3s;
 }
-.breadcrumb a:active {
+.breadcrumb a:active, .smarthome_display a:active {
   background-color: rgb(212, 173, 106);
   box-shadow: 0px 0px;
   background-image: url("../favicon.ico");
