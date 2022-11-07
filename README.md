@@ -6,6 +6,7 @@
 ####        - express them in the angular frontend with css animations and directives
 ####      - then add in web3/ecommerce functionality
 # TheJollyLaMa.github.io
+<a href="https://thejollylama.github.io/public/#!/">Frontend</a>
 
 Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js 
 
