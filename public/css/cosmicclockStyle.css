@@ -1,0 +1,20 @@
+.cosmic_clock {
+    height: 50%;
+    width: 50%;
+    opacity: 0.5;
+    margin: 0;
+    z-index: -2;    
+}
+.underlay {
+    background-image: url(./img/krsna.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 100%;
+    width: 100%; */
+    opacity: 0.9;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
