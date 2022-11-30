@@ -17,7 +17,7 @@ app.directive('jollyWallet', function() {
           }
             scope.wallet = {
                 "ens": "TheJollyLaMA.eth",
-                "acc_hash": "0x0000000000000000000000000000000000000000"
+                "acc_hash": "0x807061DF657A7697c04045dA7d16D941861cAABc"
             }
         }
     }
