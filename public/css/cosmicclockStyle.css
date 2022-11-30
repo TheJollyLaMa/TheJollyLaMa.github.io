@@ -1,7 +1,7 @@
 .cosmic_clock {
     opacity: 0.5;
     margin: 0;
-    z-index: -2;    
+    position: relative;    
 }
 .underlay {
     background-image: url(./img/krsna.png);
@@ -15,4 +15,18 @@
     position: absolute;
     top: 0;
     z-index: 1;
+}
+#earthyearvideo {
+    z-index: -2 !important;
+    display: inline; 
+    position: absolute !important; 
+    top: 0;
+    left: 0;
+}
+#aiechoes {
+    z-index: -1 !important;
+    display: inline;
+    position: absolute !important; 
+    top: 0;
+    left: 0;
 }

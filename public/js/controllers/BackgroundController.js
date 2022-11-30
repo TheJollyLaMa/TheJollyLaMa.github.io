@@ -13,6 +13,10 @@ app.controller('BackgroundController', ['$scope', function($scope) {
         "MandelbrotBlum": "./img/MandelbrotBlum.gif",
         "EnsEthBreathe": "./img/Ens_Eth_Breathe.gif"
     }
+    $scope.mp4_background_urls = {
+        "SolarCycle": "https://decentagency.space/img/EarthYear.mp4",
+        "GreatPyramid": "https://decentagency.space/img/SecretPyramid.mp4"
+    }
     // function to randomly select a background image
     $scope.randomBackground = function(urls) {
         var keys = Object.keys(urls);
