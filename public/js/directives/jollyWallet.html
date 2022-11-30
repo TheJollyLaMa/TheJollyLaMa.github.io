@@ -3,7 +3,7 @@
     <!-- <img src="https://ipfs.io/ipfs/Qmbw5FcZsDcRgACTVHMbzgJRDo2FBv9T5vfqzW9SKUUtSD" alt="" width="20px"> -->
     <!-- show account has if wallet is connected -->
     <div ng-if="walletConnected" class="account">{{wallet.acc_hash}}</div>
-    <div ng-if="walletConnected" class="account">{{wallet.ens}}</div>
+    <div class="account">{{wallet.ens}}</div>
     <!-- <div class="account_hash">??????</div> -->
     <!-- show connect button if wallet not connected -->
     <button class="button" ng-if="!walletConnected" ng-click="connectWallet()">Connect Wallet</button>
