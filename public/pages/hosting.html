@@ -19,10 +19,47 @@
           <ol>
             <li>openssl req -in somecertfile.pem -noout -text</li>
             <li>openssl x509 -in somecert.pem -noout -text</li>
+            <li>openssl x509 -in somecert-ca.pem -noout -subject</li><br>
+            <li>openssl pkey -pubin -noout -text
+              -----BEGIN PUBLIC KEY-----
+              SOMECRAZYLONGPUBLICKEYYOUWANT_TO_CHANGEINTOTHEOTHERCRAZYUNREADABLEFORM
+              -----END PUBLIC KEY-----</li><br>
+            <li>openssl x509 -in somecert-cert.pem -noout  -ext subjectAltName, crlDistributionPoint</li>
+            <li>openssl x509 -in somecert-ca.pem -noout -text | sed '/X509v3 extensions/,/Signature Algorithm:/!d'</li>
           </ol>
         </td>
-        <td>table🍒data</td>
-        <td>table🍁data</td>
+        <td>
+          <ul>
+            <li>-- See whats inside a certifcate.</li>
+            <li>-- Use pkey utility to change formats</li>
+            <li>-- check extensions; separate with comma to check multiple exts and once</li>
+            <li>-- list all extensions</li>
+          </ul>
+        </td>
+        <td>
+          other commands:
+          <ul>
+            <li>-dates</li>
+            <li>-issuer</li>
+            <li>-modulus</li>
+            <li>-serial</li>
+            <li>-pubkey</li>
+            <li>-startdate</li>
+            <li>-enddate</li>
+            <li>-ocsp_uri</li>
+            <li>-ocspid</li>
+          </ul>
+          other extensions:
+          <ul>
+            <li>basicConstraints</li>
+            <li>keyUsage</li>
+            <li>extendedKeyUsage</li>
+            <li>nameConstraints</li>
+            <li>subjectKeyIdentifier</li>
+            <li>certificatePolicies</li>
+            <li>AuthorityKeyIdentifier</li>
+          </ul>
+        </td>
       </tr>
       <tr>
         <td>Database</td>
