@@ -14,12 +14,12 @@ app.controller('BackgroundController', ['$scope', function($scope) {
         "EnsEthBreathe": "./img/Ens_Eth_Breathe.gif"
     }
     $scope.mp4_background_urls = {
-        // "SolarCycle": "https://decentagency.space/img/EarthYear.mp4",
-        "GreatPyramid": "https://decentagency.space/img/SecretPyramid.mp4"
+        // "SolarCycle": "https://decentagency.space/public/img/EarthYear.mp4",
+        "GreatPyramid": "https://decentagency.space/public/img/SecretPyramid.mp4"
     }
     $scope.webm_background_urls = {
-        // "SolarCycle": "https://decentagency.space/img/EarthYear.webm",
-        "GreatPyramid": "https://decentagency.space/img/EarthYear.webm"
+        // "SolarCycle": "https://decentagency.space/public/img/EarthYear.webm",
+        "GreatPyramid": "https://decentagency.space/public/img/EarthYear.webm"
     }
     // function to randomly select a background image
     $scope.randomBackground = function(urls) {
