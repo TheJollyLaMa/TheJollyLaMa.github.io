@@ -17,6 +17,7 @@
         <h4>NginX & OpenSSL</h4>
         <td>
           <ol>
+            ssl
             <li>openssl req -in somecertfile.pem -noout -text</li>
             <li>openssl x509 -in somecert.pem -noout -text</li>
             <li>openssl x509 -in somecert-ca.pem -noout -subject</li><br>
@@ -26,6 +27,17 @@
               -----END PUBLIC KEY-----</li><br>
             <li>openssl x509 -in somecert-cert.pem -noout  -ext subjectAltName, crlDistributionPoint</li>
             <li>openssl x509 -in somecert-ca.pem -noout -text | sed '/X509v3 extensions/,/Signature Algorithm:/!d'</li>
+                  
+          </ol>
+          <ol>
+            certbot ssl autorenew 
+            <li>sudo certbot --nginx -d decentagency.space -d www.decentagency.space</li>
+            <li>sudo certbot renew</li>
+          </ol>
+          <ol>
+            NginX
+            <li>sudo systemctl status nginx</li>
+            <li>sudo systemctl reload nginx</li>
           </ol>
         </td>
         <td>
@@ -34,6 +46,11 @@
             <li>-- Use pkey utility to change formats</li>
             <li>-- check extensions; separate with comma to check multiple exts and once</li>
             <li>-- list all extensions</li>
+            <li>
+              <a href="https://www.digicert.com/easy-csr/openssl.htm">OpenSSL CSR Wizard</a><br>
+              <a href="https://www.youtube.com/watch?v=oykl1Ih9pMg&t=15s">NginX and SSL on youtube with Traversy Media</a>
+              
+            </li>
           </ul>
         </td>
         <td>
