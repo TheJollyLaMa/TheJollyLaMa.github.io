@@ -24,7 +24,7 @@ app.directive('jollySmarthome', function() {
 
 
             // three.js scene
-            let scene, camera, renderer, cube;
+            let scene, camera, renderer, cube1, cube2;
             function init_smarthome () {
                 // init scene
                 scene = new THREE.Scene();
@@ -52,14 +52,19 @@ app.directive('jollySmarthome', function() {
                 // const material = new THREE.MeshBasicMaterial({ color: 0x0000ff });
                 // set random texture file from the textures folder    
                 // const texture = new THREE.TextureLoader().load('img/textures/' + Math.floor(Math.random() * 19) + '.png');
-                const texture = new THREE.TextureLoader().load('img/smarthome/' + Math.floor(Math.random() * 13) + '.png');
+                const texture1 = new THREE.TextureLoader().load('img/smarthome/' + Math.floor(Math.random() * 13) + '.png');
+                const texture2 = new THREE.TextureLoader().load('img/smarthome/Logos/' + Math.floor(Math.random() * 12) + '.png');
                 // const texture = new THREE.TextureLoader().load('textures/19.gif');
                 
-                const material = new THREE.MeshBasicMaterial({ map: texture });
+                const material1 = new THREE.MeshBasicMaterial({ map: texture1 });
+                const material2 = new THREE.MeshBasicMaterial({ map: texture2 });
 
-                cube = new THREE.Mesh(geometry, material);
-                scene.add(cube);
-
+                cube1 = new THREE.Mesh(geometry, material1);
+                cube2 = new THREE.Mesh(geometry, material2);
+                scene.add(cube1);
+                scene.add(cube2);
+                cube1.position.set(-3, 0, 0);
+                cube2.position.set(3, 0, 0);
                 // set the camera position
                 camera.position.z = 5;
 
@@ -67,8 +72,10 @@ app.directive('jollySmarthome', function() {
 
             function animate() {
                 requestAnimationFrame(animate);
-                cube.rotation.x += 0;
-                cube.rotation.y += 0.005;
+                cube1.rotation.x += 0;
+                cube1.rotation.y += 0.0025;
+                cube2.rotation.x += 0;
+                cube2.rotation.y -= 0.0025;
                 renderer.render(scene, camera);
             }
 
