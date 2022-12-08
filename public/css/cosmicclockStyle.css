@@ -31,3 +31,18 @@
     left: 0;
     opacity: 0.5 !important;
 }
+.youtube_playlist {
+    font-family: 'Chalkboard';
+    color: whitesmoke;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 25px;
+    width: 960px;
+    height: 720px;
+    margin: 100px auto 300px auto;
+    text-align: center;
+    position: relative;
+}
+.jolly_dalle {
+    
+}
