@@ -16,6 +16,10 @@ app.config([
       .when("/IPFS_Blend", {controller: "MainController", templateUrl: "pages/ipfs_blend.html"})
       .when("/Three", {controller: "MainController", templateUrl: "pages/three.html"})
 
+      .when("/Capu", {controller: "MainController", templateUrl: "pages/capu.html"})
+
+
+
       .otherwise({redirectTo: "/"})
     }
   ]);
