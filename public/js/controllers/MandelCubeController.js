@@ -3,7 +3,8 @@ app.controller('MandelCubeController', ['$scope', function($scope) {
     $scope.blender_art_urls = {
         "mandelblum_clear": "https://decentagency.space/public/img/mandelblum_clear.gif",
         "mandel_toroid_clear": "https://decentagency.space/public/img/mandel_toroid_clear.gif",
-        "mandelblum_clear_royal": "https://decentagency.space/public/img/mandelblum_clear_royal.gif"
+        "mandelblum_clear_royal": "https://decentagency.space/public/img/mandelblum_clear_royal.gif",
+        "mandelblum_FlyingElephantVisions": "https://decentagency.space/public/img/mandelblum2_FlyingElephantVisions.gif"
     };
     $scope.randomMandelBlum = function(urls) {
         var keys = Object.keys(urls);
