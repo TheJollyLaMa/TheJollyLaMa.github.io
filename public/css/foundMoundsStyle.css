@@ -1,0 +1,35 @@
+/* Found Mounds Stylesheet */
+.fm_title {
+  background-image: url(https://decentagency.space/public/img/confetti.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: cyan;
+  text-align: center;
+  padding: 20px;
+  height: 120px;
+  opacity: 0.8;
+}
+.instagram_link {
+  width: 35px;
+  height: 35px;
+  display: inline;
+  margin: 10px;
+}
+.decent_arch_widget {
+  font-family: 'Chalkboard';
+  text-align: center;
+  color: slategray;
+  background-color: beige;
+  margin: 15%;
+  padding: 2%;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.decent_arch_widget input {
+  margin: 1%;
+  display: block;
+  border-radius: 5px;
+  text-align: right;
+  
+}
