@@ -15,6 +15,9 @@
   height: 35px;
   display: inline;
   margin: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .decent_arch_widget {
   font-family: 'Chalkboard';
@@ -32,4 +35,13 @@
   border-radius: 5px;
   text-align: right;
   
+}
+.instagram_QR {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

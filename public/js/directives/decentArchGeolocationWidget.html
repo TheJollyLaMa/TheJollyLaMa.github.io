@@ -5,13 +5,32 @@
         <li>describe the conditions at the time and place of the find as well as any lore you think of</li>
         <li>notarize the individuals involved with the find for good accounting and later first hand verification</li>
     </ul>
-    <!-- nft form sends info to ipfs on submit and returns a hash -->
-    <input type="text" placeholder="pictures or short video">
-    <input type="text" placeholder="latitude">
-    <input type="text" placeholder="longitude">
-    <input type="text" placeholder="altitude/depth">
-    <input type="text" placeholder="description of find">
-    <input type="text" placeholder="name of discoverer">
-    {return hash}
-    <br>{ show connected wallet's list of artifacts found }
+    <!-- create nft form to send info to opensea on submit and return the hash -->
+    <form action="https://testnets.opensea.io/api/v1/assets" method="POST">
+        <input type="text" placeholder="pictures or short video">
+        <input type="text" placeholder="name of artifact">
+        <input type="text" placeholder="date of find">
+        <input type="text" placeholder="time of find">
+        <input type="text" placeholder="latitude">
+        <input type="text" placeholder="longitude">
+        <input type="text" placeholder="altitude/depth">
+        <input type="text" placeholder="description and lore of the find">
+        <input type="text" placeholder="name of discoverer">
+        <input type="text" placeholder="name of witness">
+        <input type="submit" value="submit">
+    </form>
+    <!-- return hash of nft -->
+    <div class="hash">
+        <h2>hash of nft</h2>
+        <p>0x0000000000000000000000000000000000000000000000000000000000000000</p>
+    </div> 
+    <!-- show connected wallet's list of artifacts found -->
+    <div class="artifacts">
+        <h2>artifacts found</h2>
+        <ul>
+            <li>artifact 1</li>
+            <li>artifact 2</li>
+            <li>artifact 3</li>
+        </ul>
+    </div>
 </div>
