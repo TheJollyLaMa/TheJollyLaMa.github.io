@@ -33,7 +33,7 @@ app.directive('jollySmarthome', function() {
                 // init camera
                 camera = new THREE.PerspectiveCamera(
                     90, // Field of view 
-                    window.innerWidth / window.innerHeight , // Aspect ratio (width / height)
+                    window.innerWidth / window.innerHeight, // Aspect ratio (width / height)
                     0.1, // near plane (objects closer than this will not be rendered)
                     1000 // far plane not displayed because it's too far
                 );
@@ -48,7 +48,7 @@ app.directive('jollySmarthome', function() {
                 document.getElementById("smarthome_placeholder").appendChild(renderer.domElement);
 
                 // create a cube
-                const geometry = new THREE.BoxGeometry(3, 3, 3);
+                const geometry = new THREE.BoxGeometry(3.5, 3.5, 3.5);
                 // const material = new THREE.MeshBasicMaterial({ color: 0x0000ff });
                 // set random texture file from the textures folder    
                 // const texture = new THREE.TextureLoader().load('img/textures/' + Math.floor(Math.random() * 19) + '.png');
