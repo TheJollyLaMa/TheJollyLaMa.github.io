@@ -45,3 +45,10 @@
   top: 0;
   left: 0;
 }
+.decent_arch_widget input {
+  margin: 1% auto 1% auto;
+  display: block;
+  border-radius: 5px;
+  text-align: right;
+  
+}

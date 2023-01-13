@@ -10,7 +10,23 @@
     <input type="text" placeholder="location">
     <input type="text" placeholder="mission">
     <input type="text" placeholder="resource request">
-    {return hash }
-    <br> {view connected wallet's open trip tickets}
-    <br> {view collective closed trip tickets}
+    <!-- return hash in ng-show -->
+    <div class="hash">
+        <h2>hash of nft</h2>
+        <p>0x0000000000000000000000000000000000000000000000000000000000000000</p>
+    </div>
+    <!-- show connected wallet's list of open trip tickets -->
+    <div class="triptickets">
+        <h2>open trip tickets</h2>
+        <ul>
+            <li>trip ticket 1</li>
+            <li>trip ticket 2</li>
+            <li>trip ticket 3</li>
+        </ul>
+    </div>
+    <!-- show a globe with decent trip tickets as places you can zoom into and buy -->
+    <div class="globe">
+        <h2>Global View</h2>
+        <mandel-cube style="opacity:0.5;"></mandel-cube>
+    </div>
 </div>
