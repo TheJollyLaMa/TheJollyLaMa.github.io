@@ -19,6 +19,12 @@
   top: 0;
   right: 0;
 }
+.minds_link {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+}
 .decent_arch_widget {
   font-family: 'Chalkboard';
   text-align: center;
