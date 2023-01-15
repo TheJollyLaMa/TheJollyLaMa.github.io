@@ -19,6 +19,7 @@ app.config([
       .when("/Capu", {controller: "MainController", templateUrl: "pages/capu.html"})
       .when("/FoundMounds", {controller: "FoundMoundsController", templateUrl: "pages/found_mounds.html"})
       .when("/CoolMinds", {controller: "CoolMindsController", templateUrl: "pages/cool_minds.html"})
+      .when("/DecentSmartHomes", {controller: "DecentSmartHomesController", templateUrl: "pages/decent_smart_homes.html"})
 
 
       .otherwise({redirectTo: "/"})

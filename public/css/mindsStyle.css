@@ -1,10 +1,10 @@
-.minds_embed_widget{
+.cool_minds_embed_widget{
     width: 100%;
     margin-top: 0px !important;
     opacity: 0.8;
     
   }
-  .minds_embed_widget h1{
+  .cool_minds_embed_widget h1{
     font-family: "Chalkboard";
     color: white;
     text-align: center;
@@ -12,3 +12,17 @@
     font-weight: bold;
     
   }
+  .decent_smart_homes_embed_widget{
+    width: 100%;
+    margin-top: 0px !important;
+    opacity: 0.8;
+    
+  }
+    .decent_smart_homes_embed_widget h1{
+        font-family: "Chalkboard";
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-weight: bold;
+        
+    }
