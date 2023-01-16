@@ -4,13 +4,19 @@
     opacity: 0.8;
     margin-bottom: 100px;
   }
-  .cool_minds_embed_widget h1{
+  .cool_minds_embed_widget h1, h2{
     font-family: "Chalkboard";
     color: white;
     text-align: center;
     width: 100%;
     font-weight: bold;
   }
+  .cool_minds_embed_widget iframe {
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+
   .decent_smart_homes_embed_widget{
     width: 100%;
     margin-top: 0px !important;
