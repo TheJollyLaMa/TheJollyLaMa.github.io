@@ -1,9 +1,22 @@
 # TheJollyLaMa.github.io
-<a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
-href="https://thejollylama.github.io/public/#!/">Frontend</a>
-<a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
-href="https://thejollylama.github.io/public/#!/CoolMinds">Cool Minds Café</a>
-
+  <h1 style="
+    background-image: url(https://decentagency.space/public/img/LiquidMinds.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: Chalkboard, sans-serif;
+    -webkit-text-stroke: 2px beige;
+    color: darkcyan;
+    text-align: center;
+    padding: 30px;
+    height: 140px;
+    opacity: 0.5;
+  ">
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
+      href="https://thejollylama.github.io/public/#!/">Frontend</a>
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
+      href="https://thejollylama.github.io/public/#!/CoolMinds">Cool Minds Café</a>
+</h1>
 
 
 Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js 
