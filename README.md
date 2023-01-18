@@ -1,10 +1,3 @@
-#### Update Order: 17Oct2022
-#### * order of operationns was changed need to update homepage to better reflect the MEAN fullstack dev process.
-####      - first init nodejs & setup backend skeleton with local rapid dev nodmon server
-####      - then setup angular frontend skeleton with styles & nav/footer directives
-####      - then create database connected by backend routes and frontend services
-####        - express them in the angular frontend with css animations and directives
-####      - then add in web3/ecommerce functionality
 # TheJollyLaMa.github.io
 <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; "
 href="https://thejollylama.github.io/public/#!/">Frontend</a>
