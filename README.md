@@ -1,6 +1,10 @@
 # TheJollyLaMa.github.io
-<a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; "
+<a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
 href="https://thejollylama.github.io/public/#!/">Frontend</a>
+<a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
+href="https://thejollylama.github.io/public/#!/CoolMinds">Cool Minds Café</a>
+
+
 
 Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js 
 
