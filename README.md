@@ -12,9 +12,9 @@
     height: 180px;
     opacity: 0.6;
   ">
-      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5; position:fixed; bottom:0;"
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5; position:relative; bottom:0;"
       href="https://thejollylama.github.io/public/#!/">Jolly's Cheat Sheet</a>
-      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5; position:fixed; bottom:0;"
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5; position:relative; bottom:0;"
       href="https://thejollylama.github.io/public/#!/CoolMinds">Cool Minds Café</a>
 </h1>
 
