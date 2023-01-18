@@ -12,9 +12,9 @@
     height: 140px;
     opacity: 0.5;
   ">
-      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5; "
       href="https://thejollylama.github.io/public/#!/">Frontend</a>
-      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; "
+      <a style="border: 2px solid teal; border-radius: 10px; color: white; background-color: teal; padding: 5px; font-family: 'Chalkboard'; display: inline; opacity: 0.5;"
       href="https://thejollylama.github.io/public/#!/CoolMinds">Cool Minds Café</a>
 </h1>
 
