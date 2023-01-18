@@ -20,6 +20,7 @@ app.config([
       .when("/FoundMounds", {controller: "FoundMoundsController", templateUrl: "pages/found_mounds.html"})
       .when("/CoolMinds", {controller: "CoolMindsController", templateUrl: "pages/cool_minds.html"})
       .when("/DecentSmartHomes", {controller: "DecentSmartHomesController", templateUrl: "pages/decent_smart_homes.html"})
+      .when("/BlenderBender", {controller: "BlenderBenderController", templateUrl: "pages/blender_bender.html"})
 
 
       .otherwise({redirectTo: "/"})
