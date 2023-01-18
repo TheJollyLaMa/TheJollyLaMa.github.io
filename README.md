@@ -6,6 +6,7 @@
     background-size: 100% 100%;
     font-family: Chalkboard, sans-serif;
     -webkit-text-stroke: 2px beige;
+    border-radius: 5px;
     color: darkcyan;
     text-align: center;
     padding: 30px;
@@ -19,7 +20,7 @@
 </h1>
 
 
-Jolly's cheatsheet for building a SPA with AngularJS and Bootstrap in Node.js 
+Jolly's cheatsheet for building a SPA with AngularJS, NodeJs, and Ethereum. 
 
 (You'll be seeing unusual accomplishment ...)
 
