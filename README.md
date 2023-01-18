@@ -30,20 +30,19 @@ html base structure, css style, js logic and data handling, graphics in blender,
 
 ### Project brainstorm and wireframes in Lucid Chart
     In a brainstorm session, we focus our attention toward the problems at hand and the resources/skills within our controll that may be used to solve them. 
-### Build a project in AngularJS and Bootstrap
-    We use AngularJS and Bootstrap to build the wireframes into a single page application (SPA) prototype. 
+### Build a project prototype in AngularJS
+    We use AngularJS to build the wireframes into a single page application (SPA) prototype. 
   - #### html
     use html to build the base structure of the spa.
     index page is the main page, and the other pages are the navigation routes with differing style indicators and data binders.
   - #### css
     use css to style the html elements.
-    use bootstrap to style the html elements.
     hook css styling to real time data binders.
   - #### js
     use angularjs to handle the logic of the application. create app module, route config, controllers, services, and directives.
     add scripts to the index page.
 
-### full stack
+### Complete the Full Stack
   - #### node.js
     use nodejs and express to build the backend server.
   - #### mongodb or mysql
@@ -57,7 +56,7 @@ html base structure, css style, js logic and data handling, graphics in blender,
   - #### shipstation
     use shipstation to process orders.
   - #### blockchain
-    integrate supply chain, payflow, and authentication data to blockchain. 
+    integrate asset ownership, supply chain, payflow, authentication data, etc. to blockchain. 
 
 ### tests
   - #### unit tests
@@ -65,6 +64,9 @@ html base structure, css style, js logic and data handling, graphics in blender,
       use jasmine to write the unit tests.
       use angular-mocks to mock the angular services.
   - #### jest
+
+  - #### truffle tests
+
 
 ### hosting
   - #### hostsinger
@@ -74,6 +76,9 @@ html base structure, css style, js logic and data handling, graphics in blender,
   - #### github pages
         use github pages to host the application.
         use github actions to build and deploy the application.    
+    
+  - #### IPFS and Infura
+
 
 ### git
     git commands to 'git' along.  ya 'git' it? hahaha o what a good eye dear.
@@ -89,3 +94,8 @@ html base structure, css style, js logic and data handling, graphics in blender,
   - #### Blender
     - ##### Logos and Patterns
     - ##### Basic 3D Modeling and Animation for Storefront and iOT
+  - #### Minds 💡
+    - ##### Cool Minds Café
+    - ##### Found Mounds
+    - ##### Decent Smart Homes
+    - ##### Blender Bender
